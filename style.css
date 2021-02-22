@@ -100,6 +100,52 @@ a {
   align-items: center;
 }
 
+#section1 {
+  display: grid;
+  width: 100%;
+  height: auto;
+  background-color: #f0f0f0;
+  grid-template-columns: unset;
+  grid-gap: 10px;
+  padding: 10px 0 10px 0;
+  margin: 10px auto auto auto;
+}
+
+#section1_box1 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-column: unset;
+  grid-row: auto;
+  display: grid;
+  height: 194px;
+  grid-template-rows: 80% 20%;
+  align-items: flex-end;
+  box-shadow: inset -5em -10em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#section1_box2 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  align-items: flex-end;
+  height: 194px;
+  box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
+#section1_box3 {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  align-items: flex-end;
+  height: 194px;
+  box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.685);
+}
+
 /* FOOTER */
 
 footer {
@@ -197,6 +243,10 @@ footer {
 
   #nav_bar3 {
     display: none;
+  }
+
+  .nav-bar2_links {
+    font-size: 13px;
   }
 
   #box_footer1 {
