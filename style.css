@@ -36,6 +36,44 @@ a {
   padding-right: 10px;
 }
 
+.layer_top1 > a {
+  width: auto;
+  display: grid;
+  color: white;
+  justify-items: center;
+  margin-top: 10px;
+  margin-right: 25%;
+  margin-left: 5px;
+}
+
+.layer_bot2 > a {
+  color: #3f3d3d;
+  font-size: smaller;
+}
+
+.layer_top2 > a {
+  margin-left: 32%;
+  color: #131313;
+}
+
+.layer_bot > div > a {
+  color: #000;
+}
+
+.before_image > p > a {
+  color: #f42;
+  font-weight: bold;
+}
+
+.layer_bot > div > span > a {
+  color: #3f3d3d;
+  font-size: small;
+}
+
+.layer_bot > div > span > a:hover {
+  color: black;
+}
+
 #nav_bar1 > div > a {
   color: rgb(201, 196, 196);
   text-decoration: none;
@@ -225,44 +263,6 @@ body {
   box-shadow: inset -5em -20em 9em -2em rgba(0, 0, 0, 0.685);
 }
 
-.layer_top1 > a {
-  width: auto;
-  display: grid;
-  color: white;
-  justify-items: center;
-  margin-top: 10px;
-  margin-right: 25%;
-  margin-left: 5px;
-}
-
-.layer_top2 > a {
-  margin-left: 32%;
-  color: #131313;
-}
-
-.layer_bot2 > a {
-  color: #3f3d3d;
-  font-size: smaller;
-}
-
-.layer_bot > div > a {
-  color: #000;
-}
-
-.before_image > p > a {
-  color: #f42;
-  font-weight: bold;
-}
-
-.layer_bot > div > span > a {
-  color: #3f3d3d;
-  font-size: small;
-}
-
-.layer_bot > div > span > a:hover {
-  color: black;
-}
-
 .layer_top {
   display: grid;
   grid-template-rows: 40%;
@@ -335,7 +335,6 @@ body {
   font-size: 14px;
   margin: 0 15px 0 15px;
 }
-
 
 #section3 {
   width: 97%;
@@ -636,16 +635,16 @@ footer {
     display: flex;
   }
 
+  .flex_text > a {
+    font-size: 14px;
+  }
+
   #title2 > div > a {
     margin-top: 10px;
   }
 
   .flex_text {
     margin: 20px;
-    font-size: 14px;
-  }
-
-  .flex_text > a {
     font-size: 14px;
   }
 
@@ -665,5 +664,4 @@ footer {
   #box_footer2 {
     gap: 20px;
   }
-
 }
