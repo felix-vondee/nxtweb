@@ -631,6 +631,11 @@ footer {
     padding-left: 10px;
   }
 
+  .swiss {
+    position: relative;
+    margin-left: 40px;
+  }
+
   .date {
     display: block;
     color: white;
