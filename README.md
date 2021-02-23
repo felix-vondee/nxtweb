@@ -3,7 +3,7 @@
 
 > The goal of this project was to master responsive design using media queries.
 
-![Screenshot (42)](https://user-images.githubusercontent.com/55915241/108758273-93f56380-7553-11eb-89ee-38e77553be24.png)
+![Screenshot  new](https://user-images.githubusercontent.com/55915241/108839722-1f1b3b80-75de-11eb-92c1-5f111e723d7e.png)
 
 ## Built With
 
