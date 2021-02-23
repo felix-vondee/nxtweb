@@ -46,7 +46,7 @@ a {
   margin-left: 5px;
 }
 
-.layer_bot2 > a {
+.layer_bot2 a {
   color: #3f3d3d;
   font-size: smaller;
 }
@@ -122,8 +122,9 @@ a {
 
 .button_search {
   display: grid;
-  justify-items: center;
+  justify-items: right;
   align-items: center;
+  margin-right: 0;
   border-left: 1px solid #eee;
   color: #bebebe;
 }
@@ -229,7 +230,10 @@ body {
 }
 
 #section1_box1 {
-  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
+  background-image: linear-gradient(
+    rgba(219, 34, 34, 0.9),
+    rgba(255, 255, 255, 0)
+  ), url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg);
   background-position: center;
   background-size: cover;
   grid-column: unset;
@@ -320,10 +324,13 @@ body {
 
 .section3_titles {
   color: #f42;
+  padding: 0 5px;
 }
 
-#title_section3 > h3 {
+.title_section3 {
+  color: #f42;
   font-size: 27px;
+  margin: 0 15px 0 15px;
 }
 
 #title2 > div > p {
@@ -452,7 +459,7 @@ footer {
   }
 
   #nav_bar2 {
-    grid-template-columns: 80% 15% 5%;
+    grid-template-columns: 83% 15% 2%;
     display: grid;
   }
 
@@ -503,6 +510,7 @@ footer {
 
   .hide {
     display: inline;
+    color:#f42;
   }
 
   #title2 > div {
